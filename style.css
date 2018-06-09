@@ -1,0 +1,36 @@
+.wrap{
+    height:auto;
+    width:80%;
+    margin:20px auto;
+}
+
+body{
+    margin:auto;
+}
+
+.title{
+    padding:10px;
+    width:50%;
+    background:#F0A32F;
+    border: 2px #30499B solid;
+}
+
+.title h1{
+    color:#fff;
+}
+.title h1 span{
+    color:#30499B;
+}
+
+h2{
+    padding:10px;
+    width:50%;
+    border: 2px #30499B solid;
+    background:#30499B;
+    color:white;
+}
+
+h3{
+    padding:5px 0px 5px 10px;
+    border-left:5px #30499B solid;
+}
