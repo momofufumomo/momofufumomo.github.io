@@ -24,6 +24,13 @@ h3{
 
 /*pc向け*/
 @media(min-width:768px){
+    
+    img{
+        margin:10px;
+        height:50%;
+        width:50%;
+    }
+    
     .title{
         padding:10px;
         width:50%;
@@ -48,17 +55,22 @@ h3{
 }
 
 /*スマホ向け*/
-@media (max-width:767px) {
+@media (max-width:767px) {    
+    img{
+    height:100%;
+    width:100%;
+    }
+    
     .title{
-        padding:10px;
-        width:100%;
+        padding:5%;
+        width:auto;
         background:#F0A32F;
         border: 2px #30499B solid;
     }
     
     h2{
-        padding:10px;
-        width:100%;
+        padding:5%;
+        width:auto;
         border: 2px #30499B solid;
         background:#30499B;
         color:white;
