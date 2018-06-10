@@ -1,11 +1,5 @@
 /*共通*/
 
-.wrap{
-    height:auto;
-    width:80%;
-    margin:20px auto;
-}
-
 body{
     margin:auto;
     font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
@@ -25,6 +19,13 @@ h3{
 
 /*pc向け*/
 @media(min-width:768px){
+    .wrap{
+        height:auto;
+        width:60%;
+        margin:20px auto;
+        margin-left:320px;
+        padding-right:20%;
+    }   
     
     img{
         margin:10px;
@@ -32,15 +33,21 @@ h3{
         width:50%;
     }
     
+    #title{
+        position: fixed;
+        top: 20px;
+        left:10px;
+    }
+    
     .title{
         padding:10px;
-        width:50%;
-        background:#F0A32F;
-        border: 2px #30499B solid;
+        width:100%;
+        background:#fff;
+        border: 2px #00ced1 solid;
     }
     
     .title h1{
-        color:#fff;
+        color:#000;
     }
     .title h1 span{
         color:#30499B;
@@ -48,15 +55,30 @@ h3{
 
     h2{
         padding:10px;
-        width:50%;
+        width:100%;
         border: 2px #30499B solid;
         background:#30499B;
         color:white;
+    }
+    
+    #back{
+        position: fixed;
+        bottom: 0;
+        right:0;
+    }
+    .back{
+        font-size:30px;
     }
 }
 
 /*スマホ向け*/
 @media (max-width:767px) {    
+    .wrap{
+        height:auto;
+        width:80%;
+        margin:20px auto;
+    }
+    
     img{
     height:100%;
     width:100%;
@@ -65,7 +87,7 @@ h3{
     .title{
         padding:5%;
         width:auto;
-        background:#F0A32F;
+        background:#00ced1;
         border: 2px #30499B solid;
     }
     
