@@ -1,3 +1,9 @@
+/*
+403734
+f8f5de
+69c4d0
+*/
+
 /*共通*/
 
 body{
@@ -6,15 +12,31 @@ body{
 }
 
 .title h1{
-    color:#fff;
+    color:#f8f5de;
 }
 .title h1 span{
-    color:#30499B;
+    color:#403734;
 }
+
+    .title a{
+        color:#69c4d0;
+    }
+    .title a:hover{
+        color:#f8f5de;
+        background:#403734;
+    }
+    
+    .title a:active{
+        background:#69c4d0;
+    }
+    .title a:visited{
+        color:#69c4d0;
+    }
+    
 
 h3{
     padding:5px 0px 5px 10px;
-    border-left:5px #30499B solid;
+    border-left:5px #69c4d0 solid;
 }
 
 /*pc向け*/
@@ -42,37 +64,23 @@ h3{
     .title{
         padding:10px;
         width:90%;
-        background:#fff;
-        border: 5px #30499B dotted;
+        background:#f8f5de;
+        border: 5px #403734 dotted;
     }
-    .title a{
-        color:#00c9e8;
-    }
-    .title a:hover{
-        color:#fff;
-        background:#30499B;
-    }
-    
-    .title a:active{
-        background:#00c9e8;
-    }
-    .title a:visited{
-        color:#00c9e8;
-    }
-    
+
     .title h1{
         color:#000;
     }
     .title h1 span{
-        color:#30499B;
+        color:#403734;
     }
 
     h2{
         padding:10px;
         width:100%;
-        border: 2px #30499B solid;
-        background:#30499B;
-        color:white;
+        border: 2px #403734 solid;
+        background:#403734;
+        color:#69c4d0;
     }
     
     #back{
@@ -101,15 +109,23 @@ h3{
     .title{
         padding:5%;
         width:auto;
-        background:#00c9e8;
-        border: 2px #30499B solid;
+        background:#69c4d0;
+        border: 5px #403734 dotted;
+    }
+    
+    .title a{
+        -webkit-tap-highlight-color: #f8f5de;
+    }
+    
+    .title a, .title a:visited{
+        color:#f8f5de;
     }
     
     h2{
         padding:5%;
         width:auto;
-        border: 2px #30499B solid;
-        background:#30499B;
-        color:white;
+        border: 2px #403734 solid;
+        background:#403734;
+        color:#f8f5de;
     }
 }
